@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "vendor/testconnectionfactory",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\TestConnectionFactory\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Vendor.TestConnectionFactory"
+        }
+    }
+}

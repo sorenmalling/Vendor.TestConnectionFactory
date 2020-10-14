@@ -1,0 +1,5 @@
+Vendor\TestConnectionFactory\ConnectionService:
+  properties:
+    customConnection:
+      object:
+        factoryObjectName: Vendor\TestConnectionFactory\CustomConnectionFactory
